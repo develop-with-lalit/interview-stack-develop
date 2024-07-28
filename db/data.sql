@@ -92,7 +92,12 @@ CREATE TABLE `Product` (
 
 LOCK TABLES `Product` WRITE;
 /*!40000 ALTER TABLE `Product` DISABLE KEYS */;
-INSERT INTO `Product` VALUES (1,'Hat','t','Active'),(2,'Shoes','t','Active'),(3,'Pants','t','Active'),(4,'Shirt','t','InActive'),(5,'Coat','t','InActive');
+INSERT INTO `Product` 
+VALUES (1,'Hat','https://lh3.googleusercontent.com/pw/AP1GczPbtJWMWa3iUqbdWbQ3ddnGY-7KLtTHsWVpoaXc-lDS1LRfCssnPqnbKk-mai2l1qqT8MRfKpyw5JxRJA1qks7EyAZALs44ufvShZFjE8wiZh1TzRGrfokJoJmss-WOu1CKR60B2tarLGiHSXWO3_s=w1495-h993-s-no-gm','Active'),
+(2,'Shoes','https://lh3.googleusercontent.com/pw/AP1GczMHwnDE8OHnPZCu-9vebj7ZJlhO01TDu0AFLdk3kWEGlf-n_-_lhqjhG3tJQNSO1b4vsVfApDeKqEn1Su9pum3U8Hw-XfGP2etnw7ff7X7Dos4SKN8-mTBI3Tz_43yX2AqgcOnJAYCuXE261ko7guI=w1490-h993-s-no-gm','Active'),
+(3,'Pants','https://lh3.googleusercontent.com/pw/AP1GczO6RZmahlhLTaRSLBbOW3Y7ZkuZqLk20YRqTfvEQ1Ltfv6I_k6rH6RKuOl-yGu47agz2Og1BdW904wMXkLv1pzRYWFU2jlVHsrhtDCTPy13fmn2bcJtOFemdZBP_K5dKLTjM3MC_-2yDr2bh2BNUJ8=w408-h612-s-no-gm','Active'),
+(4,'Shirt','https://lh3.googleusercontent.com/pw/AP1GczOwYeXunpMK08jaQVwdDP3r9TUpI8Sh0FZzddBuIhEtZXPiHaHJA788YMNj4nYWq2LwybVY9sUAkfk2Uee6mrMpptCAGuHt_m76VsZnboIycz0M1xv0t5NIvVwC2hE5vT-bDsiLjm5l3grlzZrCb20=w408-h612-s-no-gm','InActive'),
+(5,'Coat','https://lh3.googleusercontent.com/pw/AP1GczPKzeIMfXS4DBg4lcFTiCBVJ37-KLwbtxDo2lJvYLGRVvIcjRk6LP6RqbPq7CPM3_9ZN-BkVoHRczKPJ3CU_e1u0FztUlrvL3KHg-bOYYjCcT91-gdwKjRK2znH-hmAfSftDn_QHwI8I3IMyxzJSZE=w662-h993-s-no-gm','InActive');
 /*!40000 ALTER TABLE `Product` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
